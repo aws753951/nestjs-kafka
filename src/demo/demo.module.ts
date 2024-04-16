@@ -5,6 +5,6 @@ import { DemoController } from './demo.controller';
 @Module({
   controllers: [DemoController],
   providers: [DemoService],
-  // exports: [DemoService],
+  exports: [DemoService],
 })
 export class DemoModule {}
